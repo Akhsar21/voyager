@@ -13,10 +13,7 @@
 
 Auth::routes();
 
-Route::get('/', function () {
-    $posts = TCG\Voyager\Models\Post::all();
-    return view('home', compact('posts'));
-});
+Route::resource('/blog', 'PostController')->only('index', 'show');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

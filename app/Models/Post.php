@@ -6,5 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends \TCG\Voyager\Models\Post
 {
-    //
+    public function setRouteKeyname()
+    {
+        return 'slug';
+    }
 }
