@@ -1733,7 +1733,7 @@
                 "symfony/console": "^4.3.4",
                 "symfony/debug": "^4.3.4",
                 "symfony/finder": "^4.3.4",
-                "symfony/http-foundation": "^4.3.4",
+                "symfony/http-foundation": "4.4.7",
                 "symfony/http-kernel": "^4.3.4",
                 "symfony/process": "^4.3.4",
                 "symfony/routing": "^4.3.4",
@@ -3569,7 +3569,7 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v4.4.3",
+            "version": "v4.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
@@ -3624,7 +3624,7 @@
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v4.4.3",
+            "version": "v4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
